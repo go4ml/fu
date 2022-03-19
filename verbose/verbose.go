@@ -2,7 +2,7 @@ package verbose
 
 import (
 	"fmt"
-	//"sudachen.xyz/pkg/go-data/log"
+	//"go4ml.xyz/go-data/log"
 )
 
 type VerboseKind int

@@ -9,8 +9,8 @@ import (
 	"crypto/sha256"
 	"crypto/sha512"
 	"encoding/binary"
+	"go4ml.xyz/errstr"
 	"io"
-	"sudachen.xyz/pkg/errstr"
 )
 
 func Decrypt(password string, data []byte) ([]byte, error) {
